@@ -1,9 +1,11 @@
 def fizzbuzz(number):
-    if number % 5 == 0:
-        return "Buzz"
+    reply = ""
     if number % 3 == 0:
-        return "Fizz"
-    return str(number)
+        reply += "Fizz"
+
+    if number % 5 == 0:
+        reply += "Buzz"
+    return reply if reply != "" else str(number)
 
 
 if __name__ == '__main__':
