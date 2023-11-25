@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fizzbuzz"
+version = "0.1.0"
+description = "fizzbuzz kata"
+authors = ["Jörg Sesterhenn <joerg.sesterhenn@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+setuptools = "^69.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fizzbuzz = "fizzbuzz.main:fizzbuzz"
+test = "poetry run pytest"
