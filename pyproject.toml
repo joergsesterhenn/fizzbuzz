@@ -18,5 +18,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-fizzbuzz = "fizzbuzz.main:fizzbuzz"
 test = "poetry run pytest"
