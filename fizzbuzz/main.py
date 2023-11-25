@@ -1,7 +1,9 @@
 def fizzbuzz(number):
     if number == 5:
         return "Buzz"
-    return "Fizz"
+    if number == 3:
+        return "Fizz"
+    return str(number)
 
 
 if __name__ == '__main__':
