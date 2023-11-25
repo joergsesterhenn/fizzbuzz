@@ -11,6 +11,10 @@ class FizzBuzzTestCase(unittest.TestCase):
         reply = main.fizzbuzz(5)
         self.assertEqual("Buzz", reply)
 
+    def test_returns_number_for_1(self):
+        reply = main.fizzbuzz(1)
+        self.assertEqual("1", reply)
+
 
 if __name__ == '__main__':
     unittest.main()
