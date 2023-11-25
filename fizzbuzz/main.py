@@ -1,10 +1,7 @@
-def fizzbuzz():
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi there')  # Press Strg+F8 to toggle the breakpoint.
+def fizzbuzz(number):
+    print(number)
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     fizzbuzz()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
