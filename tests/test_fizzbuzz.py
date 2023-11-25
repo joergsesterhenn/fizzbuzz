@@ -43,6 +43,10 @@ class FizzBuzzTestCase(unittest.TestCase):
         reply = main.fizzbuzz(10)
         self.assertEqual("Buzz", reply)
 
+    def test_returns_fizzbuzz_for_15(self):
+        reply = main.fizzbuzz(15)
+        self.assertEqual("FizzBuzz", reply)
+
 
 if __name__ == '__main__':
     unittest.main()
