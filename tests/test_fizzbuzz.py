@@ -13,7 +13,7 @@ class FizzBuzzTestCase(unittest.TestCase):
 
     def test_returns_fizz_for_3(self):
         reply = main.fizzbuzz(3)
-        self.assertEqual("FizzFizz", reply)
+        self.assertEqual("Fizz", reply)
 
     def test_returns_number_for_4(self):
         reply = main.fizzbuzz(4)
@@ -21,7 +21,7 @@ class FizzBuzzTestCase(unittest.TestCase):
 
     def test_returns_buzz_for_5(self):
         reply = main.fizzbuzz(5)
-        self.assertEqual("BuzzBuzz", reply)
+        self.assertEqual("Buzz", reply)
 
     def test_returns_fizz_for_6(self):
         reply = main.fizzbuzz(6)
@@ -29,7 +29,7 @@ class FizzBuzzTestCase(unittest.TestCase):
 
     def test_returns_number_for_7(self):
         reply = main.fizzbuzz(7)
-        self.assertEqual("7", reply)
+        self.assertEqual("Whizz", reply)
 
     def test_returns_number_for_8(self):
         reply = main.fizzbuzz(8)
@@ -45,7 +45,7 @@ class FizzBuzzTestCase(unittest.TestCase):
 
     def test_returns_fizzbuzz_for_15(self):
         reply = main.fizzbuzz(15)
-        self.assertEqual("BuzzFizzBuzz", reply)
+        self.assertEqual("FizzBuzz", reply)
 
 
 if __name__ == '__main__':
