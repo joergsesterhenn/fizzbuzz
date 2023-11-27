@@ -8,9 +8,9 @@ Michael Feathers and EmilyBache performed this kata at agile2008 when competing 
 ### Stage 1
 Imagine the scene. You are eleven years old, and in the five minutes before the end of the lesson, your Maths teacher decides he should make his class more “fun” by introducing a “game”. He explains that he is going to point at each pupil in turn and ask them to say the next number in sequence, starting from one. The “fun” part is that if the number is divisible by three, you instead say “Fizz” and if it is divisible by five you say “Buzz”. So now your maths teacher is pointing at all of your classmates in turn, and they happily shout “one!”, “two!”, “Fizz!”, “four!”, “Buzz!”… until he very deliberately points at you, fixing you with a steely gaze… time stands still, your mouth dries up, your palms become sweatier and sweatier until you finally manage to croak “Fizz!”. Doom is avoided, and the pointing finger moves on.
 
-So of course in order to avoid embarassment infront of your whole class, you have to get the full list printed out so you know what to say. Your class has about 33 pupils and he might go round three times before the bell rings for breaktime. Next maths lesson is on Thursday. Get coding!
+So of course in order to avoid embarrassment in front of your whole class, you have to get the full list printed out, so you know what to say. Your class has about 33 pupils, and he might go round three times before the bell rings for break time. Next maths lesson is on Thursday. Get coding!
 
-Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz “.
+Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print "FizzBuzz".
 
 **Sample output:**
 
@@ -43,3 +43,15 @@ For example :
 
 53 should return FizzBuzz (contains 5 and 3)
 35 should return FizzBuzzBuzz (contains 3 and 5 and is divided by 5)
+
+
+### Stage 3 late change in requirements
+Forget what we wanted in Stage 2 this is no longer useful to us.
+Instead, go with these requirements that Emilie made up in https://sammancoaching.org/kata_descriptions/fizzbuzz.html
+
+Multiples of 7 are “Whizz”  
+Multiples of 11 are “Bang”  
+
+That means for example that multiples of 3 & 7 are “FizzWhizz”, multiples of 5 & 11 are “BuzzBang” etc.
+
+Extend your printout, so it continues beyond 100 and stops the first time you get “FizzBuzzWhizzBang”.
