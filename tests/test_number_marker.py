@@ -112,7 +112,7 @@ class CrossSumDivisibleNumberMarkerTestCase(unittest.TestCase):
         reply = cross_sum_divisible_number_marker.mark(15)
         self.assertEqual("Fizz", reply)
 
-    def test_returns_buzz_for_15(self):
+    def test_returns_buzz_for_23(self):
         reply = cross_sum_divisible_number_marker.mark(23)
         self.assertEqual("Buzz", reply)
 
