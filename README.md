@@ -55,3 +55,9 @@ Multiples of 11 are “Bang”
 That means for example that multiples of 3 & 7 are “FizzWhizz”, multiples of 5 & 11 are “BuzzBang” etc.
 
 Extend your printout, so it continues beyond 100 and stops the first time you get “FizzBuzzWhizzBang”.
+
+### Stage 4 reintroduce the stage 2 feature
+One of our customers demanded that we immediately reintroduce the feature from stage 2 in addition to the new features.
+Looks like they need to be more flexible about which numbers to mark and which logic applies.
+
+Make sure the printout stops at "FizzBuzzWhizzBangFizzBuzz"!
