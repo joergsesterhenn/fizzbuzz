@@ -19,5 +19,5 @@ if __name__ == '__main__':
         else:
             value = div_mark + cont_mark
         print(value)
-        print(input_number)
+        # print(input_number)
         input_number += 1
