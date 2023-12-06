@@ -61,3 +61,10 @@ One of our customers demanded that we immediately reintroduce the feature from s
 Looks like they need to be more flexible about which numbers to mark and which logic applies.
 
 Make sure the printout stops at "FizzBuzzWhizzBangFizzBuzz"!
+
+### Stage 5 new feature: mark if cross sum divisible
+
+A number is fizz if its cross sum is divisible by 3 
+A number is buzz if its cross sum is divisible by 5 
+
+For example 12 is Fizz and 23 is Buzz
