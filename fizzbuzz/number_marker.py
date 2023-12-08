@@ -19,7 +19,7 @@ class NumberMarker(metaclass=ABCMeta):
         marker = ""
         for number_to_mark in self.numbers_to_mark:
             marker += self.lookup_marker(number, number_to_mark)
-        return marker if marker != "" else str(number)
+        return marker
 
     @abstractmethod
     def lookup_marker(self, number, number_to_mark):

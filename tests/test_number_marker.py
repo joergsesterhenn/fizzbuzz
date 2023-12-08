@@ -18,21 +18,21 @@ contains_number_marker = ContainsNumberMarker(
 
 
 class DivisibleNumberMarkerTestCase(unittest.TestCase):
-    def test_returns_number_for_1(self):
+    def test_returns_nothing_for_1(self):
         reply = divisible_number_marker.mark(1)
-        self.assertEqual("1", reply)
+        self.assertEqual("", reply)
 
-    def test_returns_number_for_2(self):
+    def test_returns_nothing_for_2(self):
         reply = divisible_number_marker.mark(2)
-        self.assertEqual("2", reply)
+        self.assertEqual("", reply)
 
     def test_returns_fizz_for_3(self):
         reply = divisible_number_marker.mark(3)
         self.assertEqual("Fizz", reply)
 
-    def test_returns_number_for_4(self):
+    def test_returns_nothing_for_4(self):
         reply = divisible_number_marker.mark(4)
-        self.assertEqual("4", reply)
+        self.assertEqual("", reply)
 
     def test_returns_buzz_for_5(self):
         reply = divisible_number_marker.mark(5)
@@ -46,9 +46,9 @@ class DivisibleNumberMarkerTestCase(unittest.TestCase):
         reply = divisible_number_marker.mark(7)
         self.assertEqual("Whizz", reply)
 
-    def test_returns_number_for_8(self):
+    def test_returns_nothing_for_8(self):
         reply = divisible_number_marker.mark(8)
-        self.assertEqual("8", reply)
+        self.assertEqual("", reply)
 
     def test_returns_fizz_for_9(self):
         reply = divisible_number_marker.mark(9)
@@ -64,21 +64,21 @@ class DivisibleNumberMarkerTestCase(unittest.TestCase):
 
 
 class CrossSumDivisibleNumberMarkerTestCase(unittest.TestCase):
-    def test_returns_number_for_1(self):
+    def test_returns_nothing_for_1(self):
         reply = cross_sum_divisible_number_marker.mark(1)
-        self.assertEqual("1", reply)
+        self.assertEqual("", reply)
 
-    def test_returns_number_for_2(self):
+    def test_returns_nothing_for_2(self):
         reply = cross_sum_divisible_number_marker.mark(2)
-        self.assertEqual("2", reply)
+        self.assertEqual("", reply)
 
     def test_returns_fizz_for_3(self):
         reply = cross_sum_divisible_number_marker.mark(3)
         self.assertEqual("Fizz", reply)
 
-    def test_returns_number_for_4(self):
+    def test_returns_nothing_for_4(self):
         reply = cross_sum_divisible_number_marker.mark(4)
-        self.assertEqual("4", reply)
+        self.assertEqual("", reply)
 
     def test_returns_buzz_for_5(self):
         reply = cross_sum_divisible_number_marker.mark(5)
@@ -90,19 +90,19 @@ class CrossSumDivisibleNumberMarkerTestCase(unittest.TestCase):
 
     def test_returns_numebr_for_7(self):
         reply = cross_sum_divisible_number_marker.mark(7)
-        self.assertEqual("7", reply)
+        self.assertEqual("", reply)
 
-    def test_returns_number_for_8(self):
+    def test_returns_nothing_for_8(self):
         reply = cross_sum_divisible_number_marker.mark(8)
-        self.assertEqual("8", reply)
+        self.assertEqual("", reply)
 
     def test_returns_fizz_for_9(self):
         reply = cross_sum_divisible_number_marker.mark(9)
         self.assertEqual("Fizz", reply)
 
-    def test_returns_number_for_10(self):
+    def test_returns_nothing_for_10(self):
         reply = cross_sum_divisible_number_marker.mark(10)
-        self.assertEqual("10", reply)
+        self.assertEqual("", reply)
 
     def test_returns_fizz_for_12(self):
         reply = cross_sum_divisible_number_marker.mark(12)
@@ -118,45 +118,45 @@ class CrossSumDivisibleNumberMarkerTestCase(unittest.TestCase):
 
 
 class ContainsNumberMarkerTestCase(unittest.TestCase):
-    def test_returns_number_for_1(self):
+    def test_returns_nothing_for_1(self):
         reply = contains_number_marker.mark(1)
-        self.assertEqual("1", reply)
+        self.assertEqual("", reply)
 
-    def test_returns_number_for_2(self):
+    def test_returns_nothing_for_2(self):
         reply = contains_number_marker.mark(2)
-        self.assertEqual("2", reply)
+        self.assertEqual("", reply)
 
     def test_returns_fizz_for_3(self):
         reply = contains_number_marker.mark(3)
         self.assertEqual("Fizz", reply)
 
-    def test_returns_number_for_4(self):
+    def test_returns_nothing_for_4(self):
         reply = contains_number_marker.mark(4)
-        self.assertEqual("4", reply)
+        self.assertEqual("", reply)
 
     def test_returns_buzz_for_5(self):
         reply = contains_number_marker.mark(5)
         self.assertEqual("Buzz", reply)
 
-    def test_returns_number_for_6(self):
+    def test_returns_nothing_for_6(self):
         reply = contains_number_marker.mark(6)
-        self.assertEqual("6", reply)
+        self.assertEqual("", reply)
 
-    def test_returns_number_for_7(self):
+    def test_returns_nothing_for_7(self):
         reply = contains_number_marker.mark(7)
-        self.assertEqual("7", reply)
+        self.assertEqual("", reply)
 
-    def test_returns_number_for_8(self):
+    def test_returns_nothing_for_8(self):
         reply = contains_number_marker.mark(8)
-        self.assertEqual("8", reply)
+        self.assertEqual("", reply)
 
-    def test_returns_number_for_9(self):
+    def test_returns_nothing_for_9(self):
         reply = contains_number_marker.mark(9)
-        self.assertEqual("9", reply)
+        self.assertEqual("", reply)
 
-    def test_returns_number_for_10(self):
+    def test_returns_nothing_for_10(self):
         reply = contains_number_marker.mark(10)
-        self.assertEqual("10", reply)
+        self.assertEqual("", reply)
 
     def test_returns_buzz_for_15(self):
         reply = contains_number_marker.mark(15)
