@@ -12,10 +12,18 @@ python = "^3.9"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"
 setuptools = "^69.0.2"
+coverage = "^7.3.2"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.poetry.scripts]
-test = "poetry run pytest"
+[tool.coverage.run]
+branch = true
+command_line = "-m pytest"
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.coverage.xml]
+output = "coverage.html"

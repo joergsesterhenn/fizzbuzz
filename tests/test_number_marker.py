@@ -162,6 +162,3 @@ class ContainsNumberMarkerTestCase(unittest.TestCase):
         reply = contains_number_marker.mark(15)
         self.assertEqual("Buzz", reply)
 
-
-if __name__ == '__main__':
-    unittest.main()
